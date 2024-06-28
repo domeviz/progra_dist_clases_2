@@ -1,0 +1,598 @@
+GET http://localhost:7070/books
+Accept: application/json
+Host: books.distribuida.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-26T204607.500.json
+
+###
+
+GET http://localhost:7070/books
+Accept: application/json
+Host: books.distribuida.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-26T204606.500.json
+
+###
+
+GET http://localhost:7070/books
+Accept: application/json
+Host: books.distribuida.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-26T204602.500.json
+
+###
+
+GET http://localhost:7070/authors
+Accept: application/json
+Host: authors.distribuida.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-26T204452.200.json
+
+###
+
+GET http://localhost:7070/authors
+Accept: application/json
+Host: authors.distribuida.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-26T204445.502.txt
+
+###
+
+GET http://localhost:7070/books
+Accept: application/json
+Host: books.distribuida.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-26T204247.500.json
+
+###
+
+GET http://localhost:7070/authors
+Accept: application/json
+Host: authors.distribuida.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-26T204228.200.json
+
+###
+
+GET http://localhost:7070/authors
+Accept: application/json
+Host: books.distribuida.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:7070/authors
+Accept: application/json
+Host: authors.distribuida.com
+Content-Length: 65
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 1,
+  "first_name": "Xavier",
+  "last_name": "Aguilar"
+}
+
+<> 2024-06-26T204046.502.txt
+
+###
+
+POST http://localhost:7070/authors
+Content-Type: application/json
+Host: authors.distribuida.com
+Content-Length: 65
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "first_name": "Xavier",
+  "last_name": "Aguilar"
+}
+
+<> 2024-06-26T203928.500.json
+
+###
+
+POST http://localhost:7070/authors
+Content-Type: application/json
+Content-Length: 65
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "first_name": "Xavier",
+  "last_name": "Aguilar"
+}
+
+<> 2024-06-26T203837.404.txt
+
+###
+
+POST http://localhost:9090/authors
+Content-Type: application/json
+Content-Length: 65
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "first_name": "Xavier",
+  "last_name": "Aguilar"
+}
+
+<> 2024-06-26T203824.500.json
+
+###
+
+POST http://localhost:7070/authors
+Content-Type: application/json
+Content-Length: 65
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "first_name": "Xavier",
+  "last_name": "Aguilar"
+}
+
+<> 2024-06-26T203810.404.txt
+
+###
+
+GET http://localhost:9090/authors
+Accept: application/json
+Host: books.distribuida.com
+Content-Type: */*
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-26T203525.200.json
+
+###
+
+POST http://localhost:8090/books
+Content-Type: application/json
+Content-Length: 113
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "isbn": "978-3-16-148410-0",
+  "title": "Sample Book Title",
+  "price": 19.99,
+  "authorId": 123
+}
+
+###
+
+POST http://localhost:9090/authors
+Content-Type: application/json
+Content-Length: 2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{}
+
+###
+
+GET http://localhost:7070/books
+Accept: application/json
+Host: books.distribuida.com
+Content-Type: */*
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-26T203523.500.json
+
+###
+
+GET http://localhost:8090/books
+Accept: application/json
+Host: books.distribuida.com
+Content-Type: */*
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-26T203221.500.json
+
+###
+
+POST http://localhost:8090/books
+Content-Type: application/json
+Content-Length: 113
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "isbn": "978-3-16-148410-0",
+  "title": "Sample Book Title",
+  "price": 19.99,
+  "authorId": 123
+}
+
+###
+
+GET http://localhost:8090/books
+Accept: application/json
+Host: books.distribuida.com
+Content-Type: */*
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-26T203152.500.json
+
+###
+
+POST http://localhost:8090/books
+Content-Type: application/json
+Content-Length: 102
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "isbn": "978-3-16-148410-0",
+  "title": "Sample Book Title",
+  "price": 19.99,
+  "authorId": 123
+}
+
+###
+
+POST http://localhost:8090/books
+Content-Type: application/json
+Content-Length: 102
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "isbn": "978-3-16-148410-0",
+  "title": "Sample Book Title",
+  "price": 19.99,
+  "authorId": 123
+}
+
+###
+
+GET http://localhost:8090/books
+Accept: application/json
+Host: books.distribuida.com
+Content-Type: */*
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-26T203134.500.json
+
+###
+
+POST http://localhost:8090/books
+Content-Type: application/json
+Content-Length: 102
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "isbn": "978-3-16-148410-0",
+  "title": "Sample Book Title",
+  "price": 19.99,
+  "authorId": 123
+}
+
+###
+
+GET http://localhost:8090/books
+Accept: application/json
+Host: books.distribuida.com
+Content-Type: */*
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-26T203106.200.json
+
+###
+
+GET http://localhost:9090/authors
+Accept: application/json
+Host: books.distribuida.com
+Content-Type: */*
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-26T202735.200.json
+
+###
+
+GET http://localhost:7070/authors
+Accept: application/json
+Host: books.distribuida.com
+Content-Type: */*
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-26T202604.502.txt
+
+###
+
+GET http://localhost:7070/books
+Accept: application/json
+Host: books.distribuida.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-26T202022.502.txt
+
+###
+
+POST http://localhost:8080/books
+Content-Type: application/json
+Content-Length: 102
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "isbn": "978-3-16-148410-0",
+  "title": "Sample Book Title",
+  "price": 19.99,
+  "authorId": 123
+}
+
+<> 2024-06-26T201950.404.txt
+
+###
+
+POST http://localhost:8080/books
+Accept: application/json
+Content-Type: application/json
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 1,
+  "isbn": "asdas",
+  "title": "dasdas",
+  "price": 10,
+  "authorId": 1
+}
+
+<> 2024-06-19T125411.500.json
+
+###
+
+POST http://localhost:8080/books
+Accept: application/json
+Content-Type: application/json
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 1,
+  "isbn": "asdas",
+  "title": "dasdas",
+  "price": 10,
+  "authorId": 1
+}
+
+<> 2024-06-19T125321.500.json
+
+###
+
+POST http://localhost:8080/books
+Accept: application/json
+Content-Type: application/json
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "id": 1,
+  "isbn": "asdas",
+  "title": "dasdas",
+  "price": 10,
+  "authorId": 1
+}
+
+<> 2024-06-19T125318.500.json
+
+###
+
+POST http://localhost:8080/books
+Accept: application/json
+Content-Type: application/json
+Content-Length: 74
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "isbn": "asdas",
+  "title": "dasdas",
+  "price": 10,
+  "authorId": 1
+}
+
+<> 2024-06-19T125303.500.json
+
+###
+
+POST http://localhost:8080/books
+Accept: application/json
+Content-Type: application/json
+Content-Length: 74
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "isbn": "asdas",
+  "title": "dasdas",
+  "price": 10,
+  "authorId": 1
+}
+
+<> 2024-06-19T125253.500.json
+
+###
+
+POST http://localhost:8080/books
+Content-Type: application/json
+Content-Length: 74
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "isbn": "asdas",
+  "title": "dasdas",
+  "price": 10,
+  "authorId": 1
+}
+
+<> 2024-06-19T125229.500.json
+
+###
+
+POST http://localhost:8080/books
+Content-Type: application/json
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "isbn": "asdas",
+  "title": "dasdas",
+  "price": 10,
+  "authorId": 1
+}
+
+<> 2024-06-19T125220.500.json
+
+###
+
+POST http://localhost:8080/books
+Content-Type: application/json
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "isbn": "asdas",
+  "title": "dasdas",
+  "price": 10,
+  "authorId": 1
+}
+
+<> 2024-06-19T125153.500.json
+
+###
+
+GET http://localhost:8080/books
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-19T125135.200.json
+
+###
+
+GET http://localhost:80/api/item?id=99
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-19T125053.404.html
+
+###
+
+GET http://localhost:80/api/item?id=99
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-19T125039.404.html
+
+###
+
+POST http://localhost:80/api/item
+Content-Type: application/json
+Content-Length: 85
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "isbn": "asdas",
+  "title": "dasdas",
+  "price": 10,
+  "authorId": 1
+}
+
+<> 2024-06-19T125031.404.html
+
+###
+
+GET http://localhost:80/api/item?id=99
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2024-06-19T124710.404.html
+
+###
+

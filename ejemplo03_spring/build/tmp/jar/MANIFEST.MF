@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Main-Class: com.distribuida.Main
+Class-Path: spring-data-jpa-3.3.0.jar spring-context-6.1.8.jar spring-or
+ m-6.1.8.jar spring-aop-6.1.8.jar spring-jdbc-6.1.8.jar spring-tx-6.1.8.
+ jar spring-data-commons-3.3.0.jar spring-beans-6.1.8.jar spring-express
+ ion-6.1.8.jar spring-core-6.1.8.jar hibernate-core-6.5.2.Final.jar h2-2
+ .2.224.jar spark-core-2.9.4.jar gson-2.11.0.jar spring-jcl-6.1.8.jar mi
+ crometer-observation-1.12.6.jar jakarta.persistence-api-3.1.0.jar jakar
+ ta.transaction-api-2.0.1.jar jboss-logging-3.5.0.Final.jar hibernate-co
+ mmons-annotations-6.0.6.Final.jar jandex-3.1.2.jar classmate-1.5.1.jar 
+ byte-buddy-1.14.15.jar jaxb-runtime-4.0.2.jar jaxb-core-4.0.2.jar jakar
+ ta.xml.bind-api-4.0.0.jar jakarta.inject-api-2.0.1.jar antlr4-runtime-4
+ .13.0.jar slf4j-api-2.0.2.jar jetty-webapp-9.4.48.v20220622.jar websock
+ et-server-9.4.48.v20220622.jar jetty-servlet-9.4.48.v20220622.jar jetty
+ -security-9.4.48.v20220622.jar jetty-server-9.4.48.v20220622.jar websoc
+ ket-servlet-9.4.48.v20220622.jar error_prone_annotations-2.27.0.jar jak
+ arta.annotation-api-2.0.0.jar micrometer-commons-1.12.6.jar angus-activ
+ ation-2.0.0.jar jakarta.activation-api-2.1.1.jar javax.servlet-api-3.1.
+ 0.jar websocket-client-9.4.48.v20220622.jar jetty-client-9.4.48.v202206
+ 22.jar jetty-http-9.4.48.v20220622.jar websocket-common-9.4.48.v2022062
+ 2.jar jetty-io-9.4.48.v20220622.jar jetty-xml-9.4.48.v20220622.jar webs
+ ocket-api-9.4.48.v20220622.jar txw2-4.0.2.jar istack-commons-runtime-4.
+ 1.1.jar jetty-util-ajax-9.4.48.v20220622.jar jetty-util-9.4.48.v2022062
+ 2.jar
+
