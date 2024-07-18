@@ -1,0 +1,39 @@
+------------------------------------------
+TRAEFIK
+Ejecutar:
+    traefik -api.insecure true
+Console:
+    localhost:8080/dashboard
+
+------------------------------------------
+APLICACIONES:
+Ejecutar:
+    java -jar build/quarkus-app/quarkus-run.jar
+
+Ejecutar con un puerto distinto:
+    // Authors
+    java -Dquarkus.http.port=9090 -jar build/quarkus-app/quarkus-run.jar
+    java -Dquarkus.http.port=9091 -jar build/quarkus-app/quarkus-run.jar
+
+    // Books
+    java -Dquarkus.http.port=8090 -jar build/quarkus-app/quarkus-run.jar
+    java -Dquarkus.http.port=8091 -jar build/quarkus-app/quarkus-run.jar
+
+------------------------------------------
+CONSUL:
+Ejecutar:
+    consul agent -dev
+
+Consola de Administracion:
+    localhost:8500
+
+
+NOTA
+Para ejecutar
+1. EJECUTAR TRAEFIK: Entrar desde la consola a la carpeta app-traefik y poner traefik.exe para que se ejecute
+2. EJECUTAR CONSUL: Entrar desde la consola a la carpeta app-traefik y poner consul agent -dev para que se ejecute
+3. CONSTRUIR app-authors y app-books: Entrar al gradle y en la carpeta quarkus ejecutar el archivo quarkusBuild
+4. EJECUTAR app-authors: Entrar desde la consola a la carpeta y poner java -Dquarkus.http.port=9091 -jar build/quarkus-app/quarkus-run.jar
+5. EJECUTAR app-books: Entrar desde la consola a la carpeta y poner java -Dquarkus.http.port=8091 -jar build/quarkus-app/quarkus-run.jar
+6. Entrar a http://localhost:7070/app-authors/authors
+7. Entrar a http://localhost:7070/app-books/books
